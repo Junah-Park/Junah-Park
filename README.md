@@ -1,1 +1,1 @@
-# Cognitive science and computer science graduate with interest in AR/VR/XR and experience in self driving car software operations
+# Cognitive science and computer science graduate with experience in self driving car software operations
