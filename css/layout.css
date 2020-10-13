@@ -94,7 +94,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color:#f71acc; }
+header .social li a:hover { color:#09adef; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -892,7 +892,7 @@ call-to-action .button {
    margin-left: 26%;
 }
 #message-warning { color: #D72828; }
-#message-success { color: #f71acc; }
+#message-success { color: #09adef; }
 
 #message-warning i,
 #message-success i {
@@ -1007,4 +1007,4 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #f71acc; }
+#go-top a:hover { background-color:#09adef; }
