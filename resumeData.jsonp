@@ -73,11 +73,15 @@
     ],
     "skills":[
       {
+        "name":"Python",
+        "level":"95%"
+      },
+      {
         "name":"Javascript",
         "level":"95%"
       },
       {
-        "name":"Python",
+        "name":"C++",
         "level":"90%"
       },
       {
@@ -85,12 +89,12 @@
         "level":"85%"
       },
       {
-        "name":"C++",
-        "level":"85%"
-      },
-      {
         "name":"SQL",
         "level":"80%"
+      },
+      {
+        "name":"C#",
+        "level":"75%"
       },
       {
         "name":"NodeJs",
@@ -101,11 +105,11 @@
         "level":"75%"
       },
       {
-        "name":"React",
+        "name":"Git",
         "level":"70%"
       },
       {
-        "name":"Git",
+        "name":"React",
         "level":"65%"
       },
       {
@@ -113,15 +117,11 @@
         "level":"60%"
       },
       {
-        "name":"C#",
+        "name":"Android",
         "level":"55%"
       },
       {
         "name":"C",
-        "level":"50%"
-      },
-      {
-        "name":"Android",
         "level":"50%"
       }
     ]
