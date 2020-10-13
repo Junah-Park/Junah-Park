@@ -174,7 +174,7 @@ class App extends Component {
           },
           {
             "title":"Budget Buddy",
-            "category":"A smart shopping cart mobile app for my Human-Computer Interaction final group project",
+            "category":"Smart shopping cart and mobile app designed for shoppers on a budget, created as a final group project in Human-Computer Interaction",
             "image":"budget_buddy.png",
             "url":"https://github.com/cs160-berkeley/Group-17-Project"
           },
