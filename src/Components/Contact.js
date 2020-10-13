@@ -10,7 +10,7 @@ class Contact extends Component {
       var state = this.props.data.address.state;
       var zip = this.props.data.address.zip;
       var phone= this.props.data.phone;
-      var email = this.props.data.email;
+      // var email = this.props.data.email;
       var message = this.props.data.contactmessage;
     }
 
@@ -21,7 +21,7 @@ class Contact extends Component {
 
             <div className="two columns header-col">
 
-               <h1><span>Get In Touch.</span></h1>
+               <h1><span>Get In Touch</span></h1>
 
             </div>
 
@@ -36,7 +36,7 @@ class Contact extends Component {
          <div className="row">
             <div className="eight columns">
 
-               <form action="" method="post" id="contactForm" name="contactForm">
+               {/* <form action="" method="post" id="contactForm" name="contactForm">
 					<fieldset>
 
                   <div>
@@ -60,19 +60,21 @@ class Contact extends Component {
                   </div>
 
                   <div>
-                     <button className="submit">Submit</button>
+                     
                      <span id="image-loader">
                         <img alt="" src="images/loader.gif" />
                      </span>
                   </div>
 					</fieldset>
-				   </form>
+				   </form> */}
 
-           <div id="message-warning"> Error boy</div>
+            <button className="submit" onclick="location.href='mailto:park.junah95@gmail.com'">Email</button>
+{/* 
+           <div id="message-warning"> Error </div>
 				   <div id="message-success">
                   <i className="fa fa-check"></i>Your message was sent, thank you!<br />
 				   </div>
-           </div>
+           </div> */}
 
 
             <aside className="four columns footer-widgets">
@@ -109,6 +111,7 @@ class Contact extends Component {
                   </ul>
 		         </div> */}
             </aside>
+         </div>
       </div>
    </section>
     );

@@ -148,12 +148,19 @@
 
       var data = 'contactName=' + contactName + '&contactEmail=' + contactEmail +
                '&contactSubject=' + contactSubject + '&contactMessage=' + contactMessage;
+      
+      console.log(contactName);
 
       $.ajax({
 
 	      type: "POST",
 	      url: "inc/sendEmail.php",
-	      data: data,
+	      data:{
+            Name: contactName,
+            Email: contactEmail,
+            Subject: contactSubject,
+            Body: contactMessage
+         },
 	      success: function(msg) {
 
             // Message was sent
@@ -173,6 +180,42 @@
 	      }
 
       });
+      // try {
+         
+      // let nodemailer = require('nodemailer'); 
+      // let testAccount = await nodemailer.createTestAccount();
+
+      // let transporter = nodemailer.createTransport({
+      //    host: "smtp.ethereal.email",
+      //    port: 587,
+      //    secure: false, // true for 465, false for other ports
+      //    auth: {
+      //       user: testAccount.user, // generated ethereal user
+      //       pass: testAccount.pass, // generated ethereal password
+      //    },
+      // });
+      
+      // var mailOptions = {
+      //    from: contactEmail,
+      //    to: 'park.junah95@gmail.com',
+      //    subject: contactSubject,
+      //    text: contactMessage
+      // };
+      
+      // transporter.sendMail(mailOptions, function(error, info){
+      //    if (error) {
+      //       console.log(error);
+      //    } else {
+      //       console.log('Email sent: ' + info.response);
+      //    }
+      // }); 
+      // }
+
+      // catch (err) {
+      //    console.log(err);
+      // }
+
+      console.log("testing 2");
       return false;
    });
 
