@@ -178,7 +178,8 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #09adef; }
+ul#nav li.current a { color: #f71acc; }
+ul#nav li a:hover { color:#09adef; }
 
 
 /* ------------------------------------------------------------------ */
@@ -193,7 +194,7 @@ ul#nav li.current a { color: #09adef; }
 }
 
 #about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #f71acc; }
+#about a:hover, #about a:focus { color: #09adef; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
@@ -218,11 +219,12 @@ ul#nav li.current a { color: #09adef; }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 6px;
-   background: rgb(26, 26, 26);
+   background:#aab2bb;
+   color: #ffffff;
 }
 #about .download .button:hover {
-   background: #444;
-   color: #FFFFFF;
+   background: #09adef;
+   color: #ffffff;
 }
 #about .download .button i {
    margin-right: 15px;
