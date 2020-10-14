@@ -30,7 +30,7 @@ class App extends Component {
         "occupation":"Student",
         "description":"",
         "image":"profilepic.jpg",
-        "bio":"I'm a graduate student studying Computer Science with Data Analytics, teaching myself full-stack web development on the side. I was a self driving car software operations specialist and team leader in my previous role at Waymo. I have a passion for technology's ability to revolutionize the world and enrich our lives. I prioritize and cultivate a work culture of learning, flexibility, and transparency. Topics that drive me are AR/VR/XR and simulations for autonomous vehicles",
+        "bio":"I'm a graduate student studying Computer Science with Data Analytics, teaching myself full-stack web development on the side. I was a self driving car software operations specialist and team leader in my previous role at Waymo. I am passionate about technology and its ability to revolutionize the world and enrich our lives. I prioritize and cultivate a work culture of learning, flexibility, and transparency. Topics that drive me are AR/VR/XR and simulations for autonomous vehicles",
         "contactmessage":"I am looking for a part-time internship or entry-level position while studying. My schedule is flexible and I can relocate!",
         "email": "park.junah95@gmail.com",
         "phone": "(408)-483-1523",
@@ -56,7 +56,7 @@ class App extends Component {
         ]
       },
       "resume":{
-        "skillmessage":"Here are some relevant skills I've built over 6 years of experience in academic coursework, extracurriculars, work, and personal projects. The scales measure my level of confidence in usage.",
+        "skillmessage":"Here are some technical skills I've built over 6 years of coding for academics, research, extracurriculars, jobs, and personal projects. The bars measure my level of confidence in usage.",
         "education":[
           {
             "school":"University of York",
@@ -99,7 +99,7 @@ class App extends Component {
         ],
         "skills":[
           {
-            "name":"Python",
+            "name":"Python and Data Science Libraries",
             "level":"95%"
           },
           {
@@ -111,19 +111,15 @@ class App extends Component {
             "level":"90%"
           },
           {
-            "name":"Java",
+            "name":"Full Stack MERN (MongoDB, Express, React, NodeJs)",
             "level":"85%"
           },
           {
-            "name":"SQL",
+            "name":"Java and Android",
             "level":"80%"
           },
           {
-            "name":"C#",
-            "level":"75%"
-          },
-          {
-            "name":"NodeJs",
+            "name":"SQL",
             "level":"75%"
           },
           {
@@ -135,20 +131,8 @@ class App extends Component {
             "level":"70%"
           },
           {
-            "name":"React",
-            "level":"65%"
-          },
-          {
-            "name":"MongoDB",
+            "name":"Unity and C#",
             "level":"60%"
-          },
-          {
-            "name":"Android",
-            "level":"55%"
-          },
-          {
-            "name":"C",
-            "level":"50%"
           }
         ]
       },
