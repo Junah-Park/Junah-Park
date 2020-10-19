@@ -30,8 +30,8 @@ class App extends Component {
         "occupation":"Student",
         "description":"",
         "image":"profilepic.jpg",
-        "bio":"I'm a graduate student studying Computer Science with Data Analytics, teaching myself full-stack web development on the side. I was a self driving car software operations specialist and team leader in my previous role at Waymo. I am passionate about technology and its ability to revolutionize the world and enrich our lives. I prioritize and cultivate a work culture of learning, flexibility, and transparency. Topics that drive me are AR/VR/XR and simulations for autonomous vehicles",
-        "contactmessage":"I am looking for a part-time internship or entry-level position while studying. My schedule is flexible and I can relocate!",
+        "bio":"I'm a graduate student studying Computer Science with Data Analytics, teaching myself full-stack web development on the side. I was a self driving car software operations specialist and team leader in my previous role at Waymo. I am passionate about technology and its ability to revolutionize the world. I prioritize and cultivate a work culture of learning, flexibility, and transparency. Topics that drive me are AR/VR/XR and simulations for autonomous vehicles",
+        "contactmessage":"I am looking for an internship or entry-level position while studying. My schedule is flexible and I can relocate!",
         "email": "park.junah95@gmail.com",
         "phone": "(408)-483-1523",
         "address":{
@@ -145,16 +145,16 @@ class App extends Component {
             "url":"https://blog.waymo.com/2020/04/off-road-but-not-offline--simulation27.html"
           },
           {
-            "title":"Cognitive Measurement",
-            "category":"Experimental web application for doctors and cognitive scientists to measure and treat elderly patients with dementia and Alzheimer's",
-            "image":"brain22.jpg",
-            "url":"https://www.linkedin.com/company/caringdr-corporation/"
-          },
-          {
             "title":"Abberation Simulator",
             "category":"Research application written in python that generates simulated images based on the shape of a human eye",
             "image":"abberations visual.png",
             "url":"https://vision.berkeley.edu/research/"
+          },
+          {
+            "title":"Cognitive Measurement",
+            "category":"Experimental web application for doctors and cognitive scientists to measure and treat elderly patients with dementia and Alzheimer's",
+            "image":"brain22.jpg",
+            "url":"https://www.linkedin.com/company/caringdr-corporation/"
           },
           {
             "title":"Budget Buddy",
@@ -163,8 +163,20 @@ class App extends Component {
             "url":"https://github.com/cs160-berkeley/Group-17-Project"
           },
           {
-            "title":"Protein Acidity Predictor",
-            "category":"Machine learning model to predict protein acidity for Data Science with Python. I used scikitlearn, numpy, and pandas to preprocess, train, and present data",
+            "title":"Alc (in progress)",
+            "category":"MongoDB, Express, React, Node.js full-stack application for finding and sharing experimental mixed drinks",
+            "image":"GreenTile.jpg",
+            "url":"https://github.com/Junah-Park/alc"
+          },
+          {
+            "title":"Movie Recommender",
+            "category":"A movie recommender system and genre classifier. Logistic regression and binary variance model built in Jupyter Notebook. Data Mining and Text Analysis (pdf)",
+            "image":"recommender.PNG",
+            "url":"files/Movie Recommendation.pdf"
+          },
+          {
+            "title":"Protein Acidity Predictor (pdf)",
+            "category":"Machine learning model to predict protein acidity for Data Science with Python. I used scikitlearn, numpy, and pandas to preprocess, train, and present data (pdf)",
             "image":"protein_graph.PNG",
             "url":"files/Predict Protein Ph with Python.pdf"
           },
