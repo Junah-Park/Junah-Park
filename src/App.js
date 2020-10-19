@@ -169,14 +169,14 @@ class App extends Component {
             "url":"https://github.com/Junah-Park/alc"
           },
           {
-            "title":"Movie Recommender",
-            "category":"A movie recommender system and genre classifier. Logistic regression and binary variance model built in Jupyter Notebook. Data Mining and Text Analysis (pdf)",
+            "title":"Movie Recommender (pdf)",
+            "category":"A movie recommender system and genre classifier. Logistic regression and binary variance model built in Jupyter Notebook",
             "image":"recommender.PNG",
             "url":"files/Movie Recommendation.pdf"
           },
           {
             "title":"Protein Acidity Predictor (pdf)",
-            "category":"Machine learning model to predict protein acidity for Data Science with Python. I used scikitlearn, numpy, and pandas to preprocess, train, and present data (pdf)",
+            "category":"Machine learning model to predict protein acidity for Data Science with Python scikitlearn, numpy, and pandas",
             "image":"protein_graph.PNG",
             "url":"files/Predict Protein Ph with Python.pdf"
           },
