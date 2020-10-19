@@ -151,7 +151,7 @@ class App extends Component {
             "url":"https://vision.berkeley.edu/research/"
           },
           {
-            "title":"Cognitive Measurement",
+            "title":"Dementia Treatment",
             "category":"Experimental web application for doctors and cognitive scientists to measure and treat elderly patients with dementia and Alzheimer's",
             "image":"brain22.jpg",
             "url":"https://www.linkedin.com/company/caringdr-corporation/"
@@ -161,7 +161,9 @@ class App extends Component {
             "category":"Smart shopping cart and mobile app designed for shoppers on a budget, created as a final group project in Human-Computer Interaction",
             "image":"budget_buddy.png",
             "url":"https://github.com/cs160-berkeley/Group-17-Project"
-          },
+          }
+        ],
+        "projects2": [
           {
             "title":"Alc (in progress)",
             "category":"MongoDB, Express, React, Node.js full-stack application for finding and sharing experimental mixed drinks",
