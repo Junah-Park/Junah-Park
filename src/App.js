@@ -165,9 +165,9 @@ class App extends Component {
         ],
         "projects2": [
           {
-            "title":"Alc (in progress)",
+            "title":"Alc",
             "category":"MongoDB, Express, React, Node.js full-stack application for finding and sharing experimental mixed drinks",
-            "image":"GreenTile.jpg",
+            "image":"alc.png",
             "url":"https://github.com/Junah-Park/alc"
           },
           {
