@@ -140,7 +140,7 @@ class App extends Component {
         "projects": [
           {
             "title":"Alc",
-            "category":"MongoDB, Express, React, Node.js RESTful full-stack application for finding and sharing experimental mixed drinks",
+            "category":"MongoDB, Express, React, Node.js RESTful full-stack application for sharing experimental mixed drinks",
             "image":"alc.png",
             "url":"https://alc-prototype.herokuapp.com/"
           },
