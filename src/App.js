@@ -139,22 +139,22 @@ class App extends Component {
       "portfolio":{
         "projects": [
           {
+            "title":"Alc",
+            "category":"MongoDB, Express, React, Node.js RESTful full-stack application for finding and sharing experimental mixed drinks",
+            "image":"alc.png",
+            "url":"https://alc-prototype.herokuapp.com/"
+          },
+          {
             "title":"Autonomous Vehicles Large-Scale Logsim",
             "category":"Operations, development, bug-tracking, teaching, and triage with Waymo's self-driving car large scale simulation tools",
             "image":"waymo_sim.png",
             "url":"https://blog.waymo.com/2020/04/off-road-but-not-offline--simulation27.html"
           },
           {
-            "title":"Abberation Simulator",
-            "category":"Research application written in python that generates simulated images based on the shape of a human eye",
-            "image":"abberations visual.png",
-            "url":"https://vision.berkeley.edu/research/"
-          },
-          {
-            "title":"Dementia Treatment",
-            "category":"Experimental web application for doctors and cognitive scientists to measure and treat elderly patients with dementia and Alzheimer's",
-            "image":"brain22.jpg",
-            "url":"https://www.linkedin.com/company/caringdr-corporation/"
+            "title":"Movie Recommender (pdf)",
+            "category":"A movie recommender system and genre classifier. Logistic regression and binary variance model built in Jupyter Notebook",
+            "image":"recommender.PNG",
+            "url":"files/Movie Recommendation.pdf"
           },
           {
             "title":"Budget Buddy",
@@ -163,18 +163,18 @@ class App extends Component {
             "url":"https://github.com/cs160-berkeley/Group-17-Project"
           }
         ],
-        "projects2": [
+        "projects2": [   
           {
-            "title":"Alc",
-            "category":"MongoDB, Express, React, Node.js RESTful full-stack application for finding and sharing experimental mixed drinks",
-            "image":"alc.png",
-            "url":"https://alc-prototype.herokuapp.com/"
-          },
+            "title":"Abberation Simulator",
+            "category":"Research application written in python that generates simulated images based on the shape of a human eye",
+            "image":"abberations visual.png",
+            "url":"https://vision.berkeley.edu/research/"
+          },       
           {
-            "title":"Movie Recommender (pdf)",
-            "category":"A movie recommender system and genre classifier. Logistic regression and binary variance model built in Jupyter Notebook",
-            "image":"recommender.PNG",
-            "url":"files/Movie Recommendation.pdf"
+            "title":"Dementia Treatment",
+            "category":"Experimental web application for doctors and cognitive scientists to measure and treat elderly patients with dementia and Alzheimer's",
+            "image":"brain22.jpg",
+            "url":"https://www.linkedin.com/company/caringdr-corporation/"
           },
           {
             "title":"Protein Acidity Predictor (pdf)",
