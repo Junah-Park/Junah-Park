@@ -82,7 +82,7 @@ class App extends Component {
             "company":"Waymo",
             "title":"Software Quality Operations Specialist via Signature Consulting",
             "years":"Feb 2018 – Dec 2019",
-            "description":"As part of the Large-scale Log Simulations team, I performed safety evaluations, tested software, and filed bugs for level 4 autonomous vehicles. As a team leader and mentor, I used my data and communication skills to increase the triage rate, quality of evaluations, and accuracy of recruits to expert level. From this experience, I adapted to rapidly changing tools and workflows while improving and teaching evaluation methods at a fast-paced startup"
+            "description":"As part of the Large-scale Log Simulations team, I performed safety evaluations, tested software, and filed bugs for level 4 autonomous vehicles. As a team leader and mentor, I used my data and communication skills to increase the triage rate, quality, and accuracy of recruits to expert level. From this experience, I adapted to rapidly changing tools and workflows while improving and teaching evaluation methods at a fast-paced startup"
           },
           {
             "company":"UC Berkeley Vision Science",
