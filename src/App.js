@@ -41,7 +41,7 @@ class App extends Component {
           "zip": "94541"
         },
         "website": "https://junah-park.github.io",
-        "resumedownload":"Junah Park Resume.pdf",
+        "resumedownload":"Resume.pdf",
         "social":[
           {
             "name":"linkedin",
@@ -139,16 +139,16 @@ class App extends Component {
       "portfolio":{
         "projects": [
           {
-            "title":"Alc",
-            "category":"MongoDB, Express, React, Node.js RESTful full-stack application for sharing experimental mixed drinks",
-            "image":"alc.png",
-            "url":"https://alc-prototype.herokuapp.com/"
-          },
-          {
             "title":"Autonomous Vehicles Large-Scale Logsim",
             "category":"Operations, development, bug-tracking, teaching, and triage with Waymo's self-driving car large scale simulation tools",
             "image":"waymo_sim.png",
             "url":"https://blog.waymo.com/2020/04/off-road-but-not-offline--simulation27.html"
+          },
+          {
+            "title":"Alc",
+            "category":"MongoDB, Express, React, Node.js RESTful full-stack application for sharing experimental mixed drinks",
+            "image":"alc.png",
+            "url":"https://alc-prototype.herokuapp.com/"
           },
           {
             "title":"Movie Recommender (pdf)",
