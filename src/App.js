@@ -30,7 +30,7 @@ class App extends Component {
         "occupation":"Student",
         "description":"",
         "image":"profilepic.jpg",
-        "bio":"I'm a graduate student studying Computer Science with Data Analytics, teaching myself full-stack web development on the side. I was a self driving car software operations specialist and team leader in my previous role at Waymo. I am passionate about technology and its ability to revolutionize the world. I prioritize and cultivate a work culture of learning, flexibility, and transparency. Topics that drive me are AR/VR/XR and simulations for autonomous vehicles",
+        "bio":"I'm a graduate student studying Computer Science with Data Analytics, teaching myself full-stack web development on the side. I was a self driving car software operations specialist and team leader in my previous role at Waymo. I am passionate about technology; it revolutionizes the world and saves lives. I prioritize and cultivate a work culture of learning, flexibility, and transparency. Topics that drive me are AR/VR/XR and simulations for autonomous vehicles",
         "contactmessage":"I am looking for an internship or entry-level position while studying. My schedule is flexible and I can relocate!",
         "email": "park.junah95@gmail.com",
         "phone": "(408)-483-1523",
