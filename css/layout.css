@@ -300,7 +300,7 @@ ul#nav li a:hover { color:#09adef; }
    position: relative;
   	margin-bottom: 60px;
   	background:#3f3f3f;
-  	height: 42px;
+  	height: 14px;
   	border-radius: 3px;
 }
 .bars li em {
@@ -321,7 +321,7 @@ ul#nav li a:hover { color:#09adef; }
    padding-right: 24px;
   	background: #aab2bb;
    display: inline-block;
-  	height: 42px;
+  	height: 14px;
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
