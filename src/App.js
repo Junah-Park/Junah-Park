@@ -56,7 +56,7 @@ class App extends Component {
         ]
       },
       "resume":{
-        "skillmessage":"Here are some technical skills I've built over 6 years of coding for academics, research, extracurriculars, jobs, and personal projects. The bars measure my level of confidence in usage.",
+        "skillmessage":"Here are some technical skills I've built over 5 years of coding. The bars are a measure of confidence in use.",
         "education":[
           {
             "school":"University of York",
@@ -74,7 +74,7 @@ class App extends Component {
             "school":"Diablo Valley College",
             "degree":"Transfer to UC",
             "graduated":"May 2015",
-            "description":"Object Oriented Programming, C++, Java, Assembly Language, C, Linux"
+            "description":"Object Oriented Programming, C++, Java, Assembly Language, Linux"
           }
         ],
         "work":[
@@ -99,7 +99,7 @@ class App extends Component {
         ],
         "skills":[
           {
-            "name":"Python and Data Science Libraries",
+            "name":"Python with Data Science",
             "level":"95%"
           },
           {
@@ -107,11 +107,7 @@ class App extends Component {
             "level":"95%"
           },
           {
-            "name":"C++",
-            "level":"90%"
-          },
-          {
-            "name":"Full Stack MERN (MongoDB, Express, React, NodeJs)",
+            "name":"Full Stack (MERN)",
             "level":"85%"
           },
           {
@@ -120,7 +116,11 @@ class App extends Component {
           },
           {
             "name":"SQL",
-            "level":"75%"
+            "level":"70%"
+          },
+          {
+            "name":"C++",
+            "level":"80%"
           },
           {
             "name":"Linux",
@@ -129,10 +129,6 @@ class App extends Component {
           {
             "name":"Git",
             "level":"70%"
-          },
-          {
-            "name":"Unity and C#",
-            "level":"60%"
           }
         ]
       },
@@ -146,7 +142,7 @@ class App extends Component {
           },
           {
             "title":"Alc",
-            "category":"MongoDB, Express, React, Node.js RESTful full-stack application for sharing experimental mixed drinks",
+            "category":"MongoDB, Express, React, Node.js full-stack application built with a RESTful API to find and share mixed drinks",
             "image":"alc.png",
             "url":"https://alc-prototype.herokuapp.com/"
           },
