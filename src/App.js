@@ -88,7 +88,7 @@ class App extends Component {
             "company":"UC Berkeley Vision Science",
             "title":"Research Assistant",
             "years":"Nov 2017 – Feb 2018",
-            "description":"• Developed a Python script to simulate images from a human eye with varying degrees of astigmatism.\n• Assisted in data processing for experiments using Virtual Reality to treat amblyopia with visual cues."
+            "description":"• Developed a Python script to simulate images from a human eye with varying degrees of astigmatism.\n• Assisted in data processing for experiments using visual cues with Virtual Reality to treat amblyopia. "
           },
           {
             "company":"Caring Dr",
