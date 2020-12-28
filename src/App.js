@@ -139,10 +139,30 @@ class App extends Component {
             "category":"Operations, development, bug-tracking, teaching, and triage with Waymo's self-driving car large scale simulation tools",
             "image":"waymo_sim.png",
             "url":"https://blog.waymo.com/2020/04/off-road-but-not-offline--simulation27.html"
-          },
+          },   
+          {
+            "title":"Abberation Simulator",
+            "category":"Research application written in python that generates simulated images based on the shape of a human eye",
+            "image":"abberations visual.png",
+            "url":"https://vision.berkeley.edu/research/"
+          },       
+          {
+            "title":"Dementia Treatment",
+            "category":"Experimental web application for doctors and cognitive scientists to treat elderly patients with dementia and Alzheimer's",
+            "image":"brain22.jpg",
+            "url":"https://www.linkedin.com/company/caringdr-corporation/"
+          },         
+          {
+            "title":"Budget Buddy",
+            "category":"Smart shopping cart designed for shoppers on a budget created as a final group project in Human-Computer Interaction",
+            "image":"budget_buddy.png",
+            "url":"https://github.com/cs160-berkeley/Group-17-Project"
+          }
+        ],
+        "projects2": [ 
           {
             "title":"Alc",
-            "category":"MongoDB, Express, React, Node.js full-stack application built with a RESTful API to find and share mixed drinks",
+            "category":"MongoDB, Express, React, Node.js full-stack application built on top of a RESTful API to find and share mixed drinks",
             "image":"alc.png",
             "url":"https://alc-prototype.herokuapp.com/"
           },
@@ -153,26 +173,6 @@ class App extends Component {
             "url":"files/Movie Recommendation.pdf"
           },
           {
-            "title":"Budget Buddy",
-            "category":"Smart shopping cart and mobile app designed for shoppers on a budget, created as a final group project in Human-Computer Interaction",
-            "image":"budget_buddy.png",
-            "url":"https://github.com/cs160-berkeley/Group-17-Project"
-          }
-        ],
-        "projects2": [   
-          {
-            "title":"Abberation Simulator",
-            "category":"Research application written in python that generates simulated images based on the shape of a human eye",
-            "image":"abberations visual.png",
-            "url":"https://vision.berkeley.edu/research/"
-          },       
-          {
-            "title":"Dementia Treatment",
-            "category":"Experimental web application for doctors and cognitive scientists to measure and treat elderly patients with dementia and Alzheimer's",
-            "image":"brain22.jpg",
-            "url":"https://www.linkedin.com/company/caringdr-corporation/"
-          },
-          {
             "title":"Protein Acidity Predictor (pdf)",
             "category":"Machine learning model to predict protein acidity for Data Science with Python scikitlearn, numpy, and pandas",
             "image":"protein_graph.PNG",
@@ -180,7 +180,7 @@ class App extends Component {
           },
           {
             "title":"Soundscape Trip",
-            "category":"Hackathon web app that generates a location-based music playlist while you travel. Built with my team at CalHacks",
+            "category":"Hackathon web app that generates a location-based music playlist while you travel. Built at CalHacks",
             "image":"goldenGate.jpg",
             "url":"https://github.com/KevinBrown/Soundscape-Trip"
           }
@@ -236,8 +236,8 @@ class App extends Component {
       <div className="App">
         <Header data={this.state.resumeData.main}/>
         <About data={this.state.resumeData.main}/>
-        <Resume data={this.state.resumeData.resume}/>
         <Portfolio data={this.state.resumeData.portfolio}/>
+        <Resume data={this.state.resumeData.resume}/>
         {/* <Testimonials data={this.state.resumeData.testimonials}/> */}
         {/* <Contact data={this.state.resumeData.main}/> */}
         <Footer data={this.state.resumeData.main}/>
