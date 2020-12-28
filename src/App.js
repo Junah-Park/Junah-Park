@@ -82,19 +82,19 @@ class App extends Component {
             "company":"Waymo",
             "title":"Software Quality Operations Specialist via Signature Consulting",
             "years":"Feb 2018 – Dec 2019",
-            "description":"• As part of the Large-scale Log Simulations team, performed software quality evaluations for level 4 autonomous vehicles.\n• As a team leader and mentor, utilized system data and communication skills to increase the evaluation quality of recruits to expert level.\n• Adapted to a fast-paced startup environment, contributing to critical workflow improvements while communicating across teams."
+            "description":"As part of the Large-scale Log Simulations team, I performed software quality evaluations for level 4 autonomous vehicles. As a team leader and mentor, I utilized system data and communication skills to increase the evaluation quality of recruits to expert level. I adapted to a fast-paced startup environment, contributing to critical workflow improvements while communicating across teams."
           },
           {
             "company":"UC Berkeley Vision Science",
             "title":"Research Assistant",
             "years":"Nov 2017 – Feb 2018",
-            "description":"• Developed a Python script to simulate images from a human eye with varying degrees of astigmatism.\n• Assisted in data processing for experiments using visual cues with Virtual Reality to treat amblyopia. "
+            "description":"I developed a Python script to simulate images from a human eye with varying degrees of astigmatism. I assisted in data processing for experiments using visual cues with Virtual Reality to treat amblyopia. "
           },
           {
             "company":"Caring Dr",
             "title":"Research Assistant",
             "years":"May 2016 – Sep 2016",
-            "description":"• Caring Dr is a startup that develops medical software solutions.\n• Developed a web app in Javascript for doctors to treat patients with dementia.\n• Applied thoughtful UI principles to increase usability for mentally ill patients."
+            "description":"Caring Dr is a startup that develops medical software solutions. I developed a web app in Javascript for doctors to treat patients with dementia. I applied thoughtful UI principles to increase usability for mentally ill patients."
           }
         ],
         "skills":[
