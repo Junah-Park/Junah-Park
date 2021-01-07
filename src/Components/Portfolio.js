@@ -44,10 +44,10 @@ class Portfolio extends Component {
             <a href={projects3.url} className="button" download="ScribeApp.apk"><i className="fa fa-download"></i> Download apk </a>
           </div>
           <div>
-            <a href="https://github.com/Junah-Park/Scribe_XR_Scripts"><img src="images/portfolio/github.png" alt="Github" width="35" height="35"></img> Unity scripts </a>
+            <a href="https://github.com/Junah-Park/Scribe_XR_Scripts"><img src="images/portfolio/github.png" alt="Github" width="35" height="35"></img> Scripts </a>
           </div>
           <div>
-            <a href="https://github.com/Junah-Park/lit-citadel"><img src="images/portfolio/github.png" alt="Github" width="35" height="35"></img> Server scripts </a>
+            <a href="https://github.com/Junah-Park/lit-citadel"><img src="images/portfolio/github.png" alt="Github" width="35" height="35"></img> Server </a>
           </div>
         </div>
         <div className="columns portfolio-item">
