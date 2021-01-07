@@ -5,7 +5,7 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 import About from './Components/About';
 import Resume from './Components/Resume';
-import Contact from './Components/Contact';
+// import Contact from './Components/Contact';
 // import Testimonials from './Components/Testimonials';
 import Portfolio from './Components/Portfolio';
 
@@ -41,7 +41,7 @@ class App extends Component {
           "zip": "94541"
         },
         "website": "https://junah-park.github.io",
-        "resumedownload":"Resume.pdf",
+        "resumedownload":"Junah Park Resume.pdf",
         "social":[
           {
             "name":"linkedin",
@@ -129,43 +129,21 @@ class App extends Component {
           {
             "name":"Git",
             "level":"70%"
+          },
+          {
+            "name":"php",
+            "level":"65%"
           }
         ]
       },
       "portfolio":{
         "projects": [
           {
-            "title":"Autonomous Vehicles Large-Scale Logsim",
-            "category":"Operations, development, bug-tracking, teaching, and triage with Waymo's self-driving car large scale simulation tools",
-            "image":"waymo_sim.png",
-            "url":"https://blog.waymo.com/2020/04/off-road-but-not-offline--simulation27.html"
-          },   
-          {
-            "title":"Abberation Simulator",
-            "category":"Research application written in python that generates simulated images based on the shape of a human eye",
-            "image":"abberations visual.png",
-            "url":"https://vision.berkeley.edu/research/"
-          },       
-          {
-            "title":"Dementia Treatment",
-            "category":"Experimental web application for doctors and cognitive scientists to treat elderly patients with dementia and Alzheimer's",
-            "image":"brain22.jpg",
-            "url":"https://www.linkedin.com/company/caringdr-corporation/"
-          },         
-          {
-            "title":"Budget Buddy",
-            "category":"Smart shopping cart designed for shoppers on a budget created as a final group project in Human-Computer Interaction",
-            "image":"budget_buddy.png",
-            "url":"https://github.com/cs160-berkeley/Group-17-Project"
-          }
-        ],
-        "projects2": [ 
-          {
             "title":"Alc",
             "category":"MongoDB, Express, React, Node.js full-stack application built on top of a RESTful API to find and share mixed drinks",
             "image":"alc.png",
-            "url":"https://alc-prototype.herokuapp.com/"
-          },
+            "url":"https://alc-prototype.herokuapp.com/register"
+          },     
           {
             "title":"Movie Recommender (pdf)",
             "category":"A movie recommender system and genre classifier. Logistic regression and binary variance model built in Jupyter Notebook",
@@ -179,12 +157,44 @@ class App extends Component {
             "url":"files/Predict Protein Ph with Python.pdf"
           },
           {
+            "title":"Budget Buddy",
+            "category":"Smart shopping cart designed for shoppers on a budget created as a final group project in Human-Computer Interaction",
+            "image":"budget_buddy.png",
+            "url":"https://github.com/cs160-berkeley/Group-17-Project"
+          }
+        ],
+        "projects2": [        
+          {
+            "title":"Autonomous Vehicles Large-Scale Logsim",
+            "category":"Operations, development, bug-tracking, teaching, and triage with Waymo's self-driving car large scale simulation tools",
+            "image":"waymo_sim.png",
+            "url":"https://blog.waymo.com/2020/04/off-road-but-not-offline--simulation27.html"
+          },   
+          {
+            "title":"Abberation Simulator",
+            "category":"Research application written in python that generates simulated images based on the shape of a human eye",
+            "image":"abberations visual.png",
+            "url":"https://vision.berkeley.edu/research/"
+          },  
+          {
+            "title":"Dementia Treatment",
+            "category":"Experimental web application for doctors and cognitive scientists to treat elderly patients with dementia and Alzheimer's",
+            "image":"brain22.jpg",
+            "url":"https://www.linkedin.com/company/caringdr-corporation/"
+          },  
+          {
             "title":"Soundscape Trip",
             "category":"Hackathon web app that generates a location-based music playlist while you travel. Built at CalHacks",
             "image":"goldenGate.jpg",
             "url":"https://github.com/KevinBrown/Soundscape-Trip"
           }
-        ]
+        ],
+        "projects3": {
+          "title": "Scribe",
+          "category": "A basic Augmented Reality application built on ARFoundation for Unity. Create a virtual note to display in your home or office and save it on the cloud. Features a php backend for storing and retrieving user data and a MySQL database hosted on Heroku. The current build runs on Android 7.0 or higher.",
+          "video":"scribe.mp4",
+          "url": "files/ScribeApp.apk"
+        }
       },
       "testimonials":{
         "testimonials":[
