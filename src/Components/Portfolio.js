@@ -51,7 +51,7 @@ class Portfolio extends Component {
           </div>
         </div>
         <div className="columns portfolio-item">
-        <video width="480" height="480" controls>
+        <video controls>
           <source src='images/portfolio/scribe.mp4' type="video/mp4"></source>
           Your browser does not support the video tag.
         </video> 
