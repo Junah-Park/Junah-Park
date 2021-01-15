@@ -62,19 +62,19 @@ class App extends Component {
             "school":"University of York",
             "degree":"MSc Computer Science with Data Analytics",
             "graduated":"May 2022",
-            "description":"Algorithms and Data Structures, Data Mining and Text Analysis"
+            "description":"Algorithms and Data Structures, Data Mining and Text Analysis, Advanced Programming, Artificial Intelligence and Machine Learning"
           },
           {
             "school":"University of California Berkeley",
             "degree":"BA Cognitive Science",
             "graduated":"May 2017",
-            "description":"Artificial Intelligence, Human-Computer Interaction, Python, Android"
+            "description":"Human-Computer Interaction, Introduction to Artificial Intelligence"
           },
           {
             "school":"Diablo Valley College",
             "degree":"Transfer to UC",
             "graduated":"May 2015",
-            "description":"Object Oriented Programming, C++, Java, Assembly Language, Linux"
+            "description":"Object-Oriented Programming, Program Design and Data Structures, Assembly Language, Linux/Unix, Club Activities: Coding Competitions and Hackathons"
           }
         ],
         "work":[
