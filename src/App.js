@@ -30,7 +30,7 @@ class App extends Component {
         "occupation":"Student",
         "description":"",
         "image":"profilepic.jpg",
-        "bio":"I'm a graduate student studying Computer Science with Data Analytics, teaching myself full-stack web development on the side. I was a self driving car software operations specialist and team leader in my previous role at Waymo. I am passionate about technology; it revolutionizes the world and saves lives. I prioritize and cultivate a work culture of learning, flexibility, and transparency. Topics that drive me are AR/VR/XR and simulations for autonomous vehicles",
+        "bio":"I'm a M.S Computer Science with Data Analytics graduate student, B.A Cognitive Science, seeking growth opportunites with cutting-edge projects. I was a Software Quality Operations Specialist team lead for autonomous vehicle Large-scale Log Simulations at Waymo. I am passionate about technology; it revolutionizes the world and saves lives. I prioritize and cultivate a work culture of learning, flexibility, and honesty. Topics that drive me include simulations for self-driving cars, Augmented/Mixed Reality and Artificial Intelligence.",
         "contactmessage":"I am looking for an internship or entry-level position while studying. My schedule is flexible and I can relocate!",
         "email": "park.junah95@gmail.com",
         "phone": "(408)-483-1523",
@@ -140,7 +140,7 @@ class App extends Component {
         "projects": [
           {
             "title":"Alc",
-            "category":"MongoDB, Express, React, Node.js full-stack application built on top of a RESTful API to find and share mixed drinks",
+            "category":"Full-stack application built with MongoDB, Express, React, Node.js. Utilizes a RESTful API to find and share mixed drinks.",
             "image":"alc.png",
             "url":"https://alc-prototype.herokuapp.com/register"
           },     
@@ -158,7 +158,7 @@ class App extends Component {
           },
           {
             "title":"Budget Buddy",
-            "category":"Smart shopping cart designed for shoppers on a budget created as a final group project in Human-Computer Interaction",
+            "category":"A smart shopping cart designed for shoppers on a budget. This is a final group project for Human-Computer Interaction",
             "image":"budget_buddy.png",
             "url":"https://github.com/cs160-berkeley/Group-17-Project"
           }
@@ -191,7 +191,7 @@ class App extends Component {
         ],
         "projects3": {
           "title": "Scribe",
-          "category": "A basic Augmented Reality application built on ARFoundation for Unity. Create a virtual note to display in your home or office and save it on the cloud. Features a php backend for storing and retrieving user data and a MySQL database hosted on Heroku. The current build runs on Android 7.0 or higher.",
+          "category": "An Augmented/Mixed Reality application built on ARFoundation for Unity. Create a virtual note to display in your home or office and save it on the cloud. This project features a php backend for storing and retrieving user data and a MySQL database hosted on Heroku. The current build runs on Android 7.0 or higher.",
           "video":"scribe.mp4",
           "url": "files/ScribeApp.apk"
         }
