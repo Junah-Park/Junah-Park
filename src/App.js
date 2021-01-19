@@ -143,7 +143,7 @@ class App extends Component {
       "portfolio":{
         "projects": [
           {
-            "title":"Alc",
+            "title":"Alc (external link)",
             "category":"A full-stack application built with MongoDB, Express, React, and Node.js. Utilizes a RESTful API to post and get mixed drinks for users.",
             "image":"alc.png",
             "url":"https://alc-prototype.herokuapp.com/register"
@@ -161,7 +161,7 @@ class App extends Component {
             "url":"files/Predict Protein Ph with Python.pdf"
           },
           {
-            "title":"Budget Buddy",
+            "title":"Budget Buddy (github)",
             "category":"UI/UX project for Human-Computer Interaction. This is a smart shopping cart and mobile app designed for shoppers on a budget.",
             "image":"budget_buddy.png",
             "url":"https://github.com/cs160-berkeley/Group-17-Project"
