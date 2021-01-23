@@ -19,22 +19,22 @@ class Portfolio extends Component {
           </a>
         </div>
       });
-      // var projects2 = this.props.data.projects2.map(function(projects2){
-      //   var projectImage = 'images/portfolio/'+projects2.image;
-      //   return <div key={projects2.title} className="columns portfolio-item">  
-      //     <a href={projects2.url} title={projects2.title}>
-      //       <div className="item-wrap">
-      //         <img alt={projects2.title} src={projectImage} />
-      //         <div className="overlay">
-      //             <div className="portfolio-item-meta">
-      //               <h5>{projects2.title}</h5>
-      //               <p>{projects2.category}</p>
-      //             </div>
-      //           </div>
-      //       </div>
-      //     </a>
-      //   </div>
-      // });
+      var projects2 = this.props.data.projects2.map(function(projects2){
+        var projectImage = 'images/portfolio/'+ projects2.image;
+        return <div key={projects2.title} className="columns portfolio-item">  
+          <a href={projects2.url} title={projects2.title}>
+            <div className="item-wrap">
+              <img alt={projects2.title} src={projectImage} />
+              <div className="overlay">
+                  <div className="portfolio-item-meta">
+                    <h5>{projects2.title}</h5>
+                    <p>{projects2.category}</p>
+                  </div>
+                </div>
+            </div>
+          </a>
+        </div>
+      });
       var projects3 = this.props.data.projects3
       var projects3 =<div>
         <div className="columns portfolio-item">
@@ -74,9 +74,9 @@ class Portfolio extends Component {
               <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-quarters cf">
                   {projects}
               </div>
-              {/* <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-quarters cf">
+              <div id="portfolio-wrapper" className="center bgrid-quarters s-bgrid-quarters cf">
                   {projects2}
-              </div> */}
+              </div>
             </div>
         </div>
       </section>

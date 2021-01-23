@@ -169,6 +169,20 @@ class App extends Component {
         ],
         "projects2": [        
           {
+            "title": "Blossoms Warehouse",
+            "category": "MERN ecommerce web application inspired by local dress business Blossoms Bridal and Formal",
+            "image" : "goldenGate.jpg",
+            "url": "https://blossomswarehouseclient.herokuapp.com"
+          }
+        ],
+        "projects3": {
+          "title": "Scribe",
+          "category": "An Augmented/Mixed Reality application built on ARFoundation for Unity. Create a virtual note to display in your home or office and save it on the cloud. This project features a php backend for storing and retrieving user data and a MySQL database hosted on Heroku. The current build runs on Android 7.0 or higher.",
+          "video":"scribe.mp4",
+          "url": "files/ScribeApp.apk"
+        },
+        "projects4": [
+          {
             "title":"Autonomous Vehicles Large-Scale Logsim",
             "category":"Operations, development, bug-tracking, teaching, and triage with Waymo's self-driving car large scale simulation tools",
             "image":"waymo_sim.png",
@@ -192,13 +206,7 @@ class App extends Component {
             "image":"goldenGate.jpg",
             "url":"https://github.com/KevinBrown/Soundscape-Trip"
           }
-        ],
-        "projects3": {
-          "title": "Scribe",
-          "category": "An Augmented/Mixed Reality application built on ARFoundation for Unity. Create a virtual note to display in your home or office and save it on the cloud. This project features a php backend for storing and retrieving user data and a MySQL database hosted on Heroku. The current build runs on Android 7.0 or higher.",
-          "video":"scribe.mp4",
-          "url": "files/ScribeApp.apk"
-        }
+        ]
       },
       "testimonials":{
         "testimonials":[
