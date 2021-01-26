@@ -74,9 +74,9 @@ class Portfolio extends Component {
               <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-quarters cf">
                   {projects}
               </div>
-              <div id="portfolio-wrapper" className="center bgrid-quarters s-bgrid-quarters cf">
+              {/* <div id="portfolio-wrapper" className="center bgrid-quarters s-bgrid-quarters cf">
                   {projects2}
-              </div>
+              </div> */}
             </div>
         </div>
       </section>

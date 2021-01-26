@@ -141,13 +141,7 @@ class App extends Component {
         ]
       },
       "portfolio":{
-        "projects": [
-          {
-            "title":"Alc (external link)",
-            "category":"A full-stack application built with MongoDB, Express, React, and Node.js. Utilizes a RESTful API to post and get mixed drinks for users.",
-            "image":"alc.png",
-            "url":"https://alc-prototype.herokuapp.com/register"
-          },     
+        "projects": [     
           {
             "title":"Movie Recommender (pdf)",
             "category":"A movie recommender system and genre classifier. Logistic regression and binary variance model built in Jupyter Notebook",
@@ -165,6 +159,12 @@ class App extends Component {
             "category":"UI/UX project for Human-Computer Interaction. This is a smart shopping cart and mobile app designed for shoppers on a budget.",
             "image":"budget_buddy.png",
             "url":"https://github.com/cs160-berkeley/Group-17-Project"
+          },
+          {
+            "title":"Alc (external link)",
+            "category":"A full-stack application built with MongoDB, Express, React, and Node.js. Utilizes a RESTful API to post and get mixed drinks for users.",
+            "image":"alc.png",
+            "url":"https://alc-prototype.herokuapp.com/register"
           }
         ],
         "projects2": [        
