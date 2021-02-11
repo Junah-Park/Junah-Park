@@ -57,6 +57,23 @@ class Portfolio extends Component {
         </video> 
         </div>
       </div>
+
+      var projects5 = this.props.data.projects5;
+      var projects5 =<div>
+        <div className="columns portfolio-item">
+          <h5>{projects5.title} <img src="images/portfolio/blossoms_icon.png" width="35" height="35"></img></h5>
+          <p>{projects5.category}</p>
+          <div>
+            <a href={projects5.url} className="button"> Website </a>
+          </div>
+          <div>
+            <a href={projects5.github} className="button"><img src="images/portfolio/github.png" alt="Github" width="15" height="15"></img>  Github </a>
+          </div>
+        </div>
+        <div className="columns portfolio-item">
+          <a href={projects5.url}><img alt={projects5.title} src={'images/portfolio/' + projects5.image}></img></a>
+        </div>
+      </div>
     }
 
     return (
@@ -68,9 +85,11 @@ class Portfolio extends Component {
 
               <h1>Projects</h1>
               <div id="portfolio-wrapper" className="bgrid-halves s-bgrid-halves cf">
+                {projects5}
+              </div>
+              <div id="portfolio-wrapper" className="bgrid-halves s-bgrid-halves cf">
                 {projects3}
               </div>
-
               <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-quarters cf">
                   {projects}
               </div>

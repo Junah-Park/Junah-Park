@@ -28,9 +28,9 @@ class App extends Component {
       "main": {
         "name":"Junah Park",
         "occupation":"Student",
-        "description":"",
+        "description":"Junior Software Engineer",
         "image":"profilepic.jpg",
-        "bio":"I'm a M.S Computer Science with Data Analytics graduate student, B.A Cognitive Science, seeking growth opportunites with cutting-edge projects. I was a Software Quality Operations Specialist team lead for autonomous vehicle Large-scale Log Simulations at Waymo. I am passionate about technology; it revolutionizes the world and saves lives. I prioritize and cultivate a work culture of learning, flexibility, and honesty. Topics that drive me include simulations for self-driving cars, Augmented/Mixed Reality and Artificial Intelligence.",
+        "bio":"I'm a Computer Science student with advanced programming and machine learning experience. I am naturally curious and thorough, often exploring branching topics to deepen my understanding. I lead with integrity and own my initiatives. I aim high with real goals to bring out my best work. My favorite topics include Artificial Intelligence, Brain-Computer Interfaces, and Mixed Reality.",
         "contactmessage":"I am looking for an internship or entry-level position while studying. My schedule is flexible and I can relocate!",
         "email": "park.junah95@gmail.com",
         "phone": "(408)-483-1523",
@@ -56,7 +56,7 @@ class App extends Component {
         ]
       },
       "resume":{
-        "skillmessage":"Here are some technical skills I've built over 5 years of coding. The bars are a measure of confidence in use.",
+        "skillmessage":"Here are some technical skills I've built over 5 years of coding. The bars are a self-assessment of relative confidence.",
         "education":[
           {
             "school":"University of York",
@@ -206,7 +206,14 @@ class App extends Component {
             "image":"goldenGate.jpg",
             "url":"https://github.com/KevinBrown/Soundscape-Trip"
           }
-        ]
+        ],
+        "projects5": {
+          "title": "Blossoms Warehouse",
+          "category": "A Full Stack ECommerce web app built with React, NodeJS, and Firebase. This functional site features user authentication with a noSQL database and payment processing through the Stripe API. This project is inspired by my family's retail business.",
+          "image": "BlossomsWarehouse.PNG",
+          "url": "https://blossoms-warehouse.web.app/",
+          "github": "https://github.com/Junah-Park/blossoms-warehouse"
+        }
       },
       "testimonials":{
         "testimonials":[
