@@ -177,7 +177,7 @@ class App extends Component {
         ],
         "projects3": {
           "title": "Scribe",
-          "category": "An Augmented/Mixed Reality application built on ARFoundation for Unity. Create a virtual note to display in your home or office and save it on the cloud. This project features a php backend for storing and retrieving user data with a MySQL database hosted on Heroku. The current build runs on Android 7.0 or higher.",
+          "category": "An Augmented/Mixed Reality application built on ARFoundation for Unity. Create a virtual note to display in your home or office and save it online. This project features a php backend for storing and retrieving user data with a MySQL database hosted on Heroku. The current build runs on Android 7.0 or higher.",
           "video":"scribe.mp4",
           "url": "files/ScribeApp.apk"
         },
