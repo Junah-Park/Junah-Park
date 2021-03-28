@@ -1,1 +1,1 @@
-# Cognitive science and computer science graduate with experience in self driving car software operations
+# Cognitive science and Computer science learner enthusiastic about AI, BCI, and MR applications
