@@ -56,7 +56,7 @@ class App extends Component {
         ]
       },
       "resume":{
-        "skillmessage":"Here are some technical skills I've built over 5 years of coding. The bars are a self-assessment of relative confidence.",
+        "skillmessage":"Here are some of my technical skills. The bars are a self-assessment of relative confidence.",
         "education":[
           {
             "school":"University of York",
@@ -74,7 +74,7 @@ class App extends Component {
             "school":"Diablo Valley College",
             "degree":"Transfer to UC",
             "graduated":"May 2015",
-            "description":"Object-Oriented Programming, Program Design and Data Structures, Assembly Language, Linux/Unix, Club Activities: Coding Competitions and Hackathons"
+            "description":"Object-Oriented Programming, Program Design and Data Structures, Assembly Language, Linux/Unix, Club Activities: Inter-Collegiate Coding Competition and CalHacks"
           }
         ],
         "work":[
@@ -88,7 +88,7 @@ class App extends Component {
             "company":"UC Berkeley Vision Science",
             "title":"Research Assistant",
             "years":"Nov 2017 – Feb 2018",
-            "description":"I developed a Python script to simulate images from a human eye with varying degrees of astigmatism. I assisted in data processing for experiments using visual cues with Virtual Reality to treat amblyopia. "
+            "description":"I developed a Python script to simulate images from a human eye with varying degrees of astigmatism. I assisted in data processing for experiments using visual cues with Virtual Reality to treat amblyopia."
           },
           {
             "company":"Caring Dr",
@@ -209,7 +209,7 @@ class App extends Component {
         ],
         "projects5": {
           "title": "Blossoms Warehouse",
-          "category": "A Full Stack ECommerce web app built with React, NodeJS, and Firebase. This functional site features user authentication with a noSQL database and payment processing through the Stripe API. This project is inspired by my family's retail business.",
+          "category": "A Full Stack ECommerce web app built with React, NodeJS, and Firebase. This functional site features user authentication with a noSQL database and payment processing through the Stripe API. This project is inspired by local dress retail business, Blossoms Bridal and Formal.",
           "image": "BlossomsWarehouse.PNG",
           "url": "https://blossoms-warehouse.web.app/",
           "github": "https://github.com/Junah-Park/blossoms-warehouse"
