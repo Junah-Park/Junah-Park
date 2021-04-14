@@ -62,7 +62,7 @@ class App extends Component {
             "school":"University of York",
             "degree":"MSc Computer Science with Data Analytics",
             "graduated":"May 2022",
-            "description":"Algorithms and Data Structures, Data Mining and Text Analysis, Advanced Programming, Artificial Intelligence and Machine Learning"
+            "description":"Algorithms and Data Structures, Data Mining and Text Analysis, Advanced Programming, Artificial Intelligence and Machine Learning, Software Engineering"
           },
           {
             "school":"University of California Berkeley",
@@ -74,7 +74,7 @@ class App extends Component {
             "school":"Diablo Valley College",
             "degree":"Transfer to UC",
             "graduated":"May 2015",
-            "description":"Object-Oriented Programming, Program Design and Data Structures, Assembly Language, Linux/Unix, Club Activities: Inter-Collegiate Coding Competition and CalHacks"
+            "description":"Object-Oriented Programming, Program Design and Data Structures, Assembly Language, Linux/Unix, Club Activities: Inter-Collegiate Coding Competition, Hackathons (CalHacks)"
           }
         ],
         "work":[
@@ -266,7 +266,7 @@ class App extends Component {
         <Header data={this.state.resumeData.main}/>
         <About data={this.state.resumeData.main}/>
         <Portfolio data={this.state.resumeData.portfolio}/>
-        <Resume data={this.state.resumeData.resume}/>
+        {/* <Resume data={this.state.resumeData.resume}/> */}
         {/* <Testimonials data={this.state.resumeData.testimonials}/> */}
         {/* <Contact data={this.state.resumeData.main}/> */}
         <Footer data={this.state.resumeData.main}/>
