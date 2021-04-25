@@ -1,1 +1,1 @@
-# Cognitive science and Computer science learner enthusiastic about AI, BCI, and MR applications
+# Software Engineer with interests in Mixed Reality, Artificial Intelligence, and Brain-Computer Interfaces
